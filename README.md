@@ -5,14 +5,14 @@
 `bash typhoon.sh`
 ---
 ### プログラム説明
-- 基本的にプログラム内に細かくコメントを記載しているので詳しくはソース内を参照してください
+- 基本的にプログラム内にコメントを記載しているので詳しくはソース内を参照してください
 - 大まかに説明すると、webから台風情報を取得し、テキストに出力する   
 その後、テキスト内から台風の座標を探し出して、出力するという流れです
 ---
-### 実行環境
-- OS　：Ubuntu16.04
+### テスト実行環境
+- OS　 ：Ubuntu16.04
 - 言語 ：Python 2.7.15
-- ライブラリ：urllib2、BeautifulSoup、re、os.path、sys    
+- ライブラリ：urllib2、BeautifulSoup、os.path、sys
 ※BeautifulSoupのみデフォルトで入っていないので、以下のコマンドでインストールしてください   
 　`pip install beautifulsoup4`    
 ---
