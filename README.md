@@ -12,7 +12,7 @@
 ### テスト実行環境
 - OS　 ：Ubuntu16.04
 - 言語 ：Python 2.7.15
-- ライブラリ：urllib2、BeautifulSoup、os.path、sys
+- ライブラリ：urllib2、BeautifulSoup、os.path、sys   
 ※BeautifulSoupのみデフォルトで入っていないので、以下のコマンドでインストールしてください   
 　`pip install beautifulsoup4`    
 ---
